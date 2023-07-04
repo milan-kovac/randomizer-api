@@ -1,0 +1,703 @@
+[
+    {
+      "id": 1,
+      "name": "Wireless Headphones",
+      "price": 59.99,
+      "color": "Black",
+      "description": "Enjoy your favorite music with these high-quality wireless headphones."
+    },
+    {
+      "id": 2,
+      "name": "Smartwatch",
+      "price": 199.99,
+      "color": "Silver",
+      "description": "Stay connected and track your fitness with this stylish smartwatch."
+    },
+    {
+      "id": 3,
+      "name": "Bluetooth Speaker",
+      "price": 79.99,
+      "color": "Red",
+      "description": "Enjoy your favorite music with powerful sound using this Bluetooth speaker."
+    },
+    {
+      "id": 4,
+      "name": "Wireless Mouse",
+      "price": 29.99,
+      "color": "Blue",
+      "description": "Navigate your computer with ease using this ergonomic wireless mouse."
+    },
+    {
+      "id": 5,
+      "name": "Smart Thermostat",
+      "price": 149.99,
+      "color": "White",
+      "description": "Control your home's temperature and save energy with this smart thermostat."
+    },
+    {
+      "id": 6,
+      "name": "Portable Bluetooth Speaker",
+      "price": 39.99,
+      "color": "Black",
+      "description": "Take your music wherever you go with this portable Bluetooth speaker."
+    },
+    {
+      "id": 7,
+      "name": "Gaming Mouse",
+      "price": 49.99,
+      "color": "Black",
+      "description": "Experience precise control and customization with this gaming mouse."
+    },
+    {
+      "id": 8,
+      "name": "Smart Doorbell",
+      "price": 249.99,
+      "color": "Silver",
+      "description": "See who's at your door from anywhere with this smart doorbell."
+    },
+    {
+      "id": 9,
+      "name": "Wireless Keyboard",
+      "price": 49.99,
+      "color": "White",
+      "description": "Type comfortably with this sleek and wireless keyboard."
+    },
+    {
+      "id": 10,
+      "name": "Bluetooth Earbuds",
+      "price": 89.99,
+      "color": "Black",
+      "description": "Enjoy wireless music and calls with these comfortable Bluetooth earbuds."
+    },
+    {
+      "id": 11,
+      "name": "Smart Home Security Camera",
+      "price": 179.99,
+      "color": "White",
+      "description": "Monitor your home with this high-definition smart security camera."
+    },
+    {
+      "id": 12,
+      "name": "Fitness Tracker",
+      "price": 79.99,
+      "color": "Black",
+      "description": "Track your activity, heart rate, and sleep with this fitness tracker."
+    },
+    {
+      "id": 13,
+      "name": "Wireless Charger",
+      "price": 29.99,
+      "color": "White",
+      "description": "Charge your compatible devices wirelessly with this convenient wireless charger."
+    },
+    {
+      "id": 14,
+      "name": "Bluetooth Headset",
+      "price": 39.99,
+      "color": "Black",
+      "description": "Stay connected and make hands-free calls with this Bluetooth headset."
+    },
+    {
+      "id": 15,
+      "name": "Smart LED Light Bulb",
+      "price": 19.99,
+      "color": "White",
+      "description": "Control the lighting in your home with this smart LED light bulb."
+    },
+    {
+      "id": 16,
+      "name": "Wireless Gaming Controller",
+      "price": 69.99,
+      "color": "Black",
+      "description": "Enhance your gaming experience with this wireless gaming controller."
+    },
+    {
+      "id": 17,
+      "name": "Smart Plug",
+      "price": 24.99,
+      "color": "White",
+      "description": "Turn your devices on or off remotely with this smart plug."
+    },
+    {
+      "id": 18,
+      "name": "Wireless Earphones",
+      "price": 49.99,
+      "color": "Black",
+      "description": "Enjoy your music wirelessly with these comfortable wireless earphones."
+    },
+    {
+      "id": 19,
+      "name": "Smart Scale",
+      "price": 39.99,
+      "color": "Silver",
+      "description": "Track your weight and other health metrics with this smart scale."
+    },
+    {
+      "id": 20,
+      "name": "Bluetooth Car Kit",
+      "price": 29.99,
+      "color": "Black",
+      "description": "Stay safe while driving with this Bluetooth car kit for hands-free calls."
+    },
+    {
+      "id": 21,
+      "name": "Smart Home Hub",
+      "price": 149.99,
+      "color": "White",
+      "description": "Control all your smart devices from one central hub with this smart home hub."
+    },
+    {
+      "id": 22,
+      "name": "Wireless Printer",
+      "price": 99.99,
+      "color": "Black",
+      "description": "Print documents and photos wirelessly with this high-quality wireless printer."
+    },
+    {
+      "id": 23,
+      "name": "External Hard Drive",
+      "price": 129.99,
+      "color": "Silver",
+      "description": "Expand your storage space with this reliable external hard drive."
+    },
+    {
+      "id": 24,
+      "name": "Bluetooth Keyboard",
+      "price": 59.99,
+      "color": "White",
+      "description": "Type comfortably on your tablet or smartphone with this Bluetooth keyboard."
+    },
+    {
+      "id": 25,
+      "name": "Smart Security System",
+      "price": 299.99,
+      "color": "Black",
+      "description": "Secure your home with this comprehensive smart security system."
+    },
+    {
+      "id": 26,
+      "name": "Wireless In-Ear Headphones",
+      "price": 79.99,
+      "color": "Black",
+      "description": "Enjoy immersive sound with these wireless in-ear headphones."
+    },
+    {
+      "id": 27,
+      "name": "Smart Vacuum Cleaner",
+      "price": 199.99,
+      "color": "Silver",
+      "description": "Keep your floors clean with this smart vacuum cleaner that navigates your home."
+    },
+    {
+      "id": 28,
+      "name": "Portable Power Bank",
+      "price": 39.99,
+      "color": "Black",
+      "description": "Charge your devices on the go with this compact and portable power bank."
+    },
+    {
+      "id": 29,
+      "name": "Wireless Webcam",
+      "price": 59.99,
+      "color": "Black",
+      "description": "Stay connected through video calls with this high-quality wireless webcam."
+    },
+    {
+      "id": 30,
+      "name": "Smart Coffee Maker",
+      "price": 79.99,
+      "color": "White",
+      "description": "Brew your favorite coffee with this programmable smart coffee maker."
+    },
+    {
+      "id": 31,
+      "name": "Bluetooth Shower Speaker",
+      "price": 29.99,
+      "color": "Blue",
+      "description": "Listen to your favorite music in the shower with this waterproof Bluetooth speaker."
+    },
+    {
+      "id": 32,
+      "name": "Wireless Gaming Headset",
+      "price": 129.99,
+      "color": "Black",
+      "description": "Immerse yourself in the game with this wireless gaming headset."
+    },
+    {
+      "id": 33,
+      "name": "Smart Mirror",
+      "price": 199.99,
+      "color": "Silver",
+      "description": "Get ready for the day with this smart mirror that displays weather and news."
+    },
+    {
+      "id": 34,
+      "name": "Wireless Router",
+      "price": 79.99,
+      "color": "Black",
+      "description": "Connect all your devices to the internet with this high-speed wireless router."
+    },
+    {
+      "id": 35,
+      "name": "Portable Bluetooth Keyboard",
+      "price": 49.99,
+      "color": "White",
+      "description": "Type comfortably on your tablet or smartphone with this portable Bluetooth keyboard."
+    },
+    {
+      "id": 36,
+      "name": "Smart Lock",
+      "price": 149.99,
+      "color": "Silver",
+      "description": "Secure your home with this keyless smart lock that offers convenience and security."
+    },
+    {
+      "id": 37,
+      "name": "Wireless Charging Pad",
+      "price": 19.99,
+      "color": "Black",
+      "description": "Charge your compatible devices by simply placing them on this wireless charging pad."
+    },
+    {
+      "id": 38,
+      "name": "Bluetooth Noise-Canceling Headphones",
+      "price": 149.99,
+      "color": "Black",
+      "description": "Enjoy your music without distractions with these Bluetooth noise-canceling headphones."
+    },
+    {
+      "id": 39,
+      "name": "Smart Water Bottle",
+      "price": 29.99,
+      "color": "Blue",
+      "description": "Stay hydrated and track your water intake with this smart water bottle."
+    },
+    {
+      "id": 40,
+      "name": "Wireless Soundbar",
+      "price": 199.99,
+      "color": "Black",
+      "description": "Enhance your TV and music listening experience with this wireless soundbar."
+    },
+    {
+      "id": 41,
+      "name": "Smart Garden",
+      "price": 79.99,
+      "color": "White",
+      "description": "Grow your own herbs and plants indoors with this smart garden system."
+    },
+    {
+      "id": 42,
+      "name": "Wireless Bluetooth Adapter",
+      "price": 19.99,
+      "color": "Black",
+      "description": "Turn your non-Bluetooth devices into Bluetooth-enabled devices with this wireless adapter."
+    },
+    {
+      "id": 43,
+      "name": "Smart Rice Cooker",
+      "price": 69.99,
+      "color": "White",
+      "description": "Cook perfect rice every time with this smart rice cooker."
+    },
+    {
+      "id": 44,
+      "name": "Wireless Security System",
+      "price": 299.99,
+      "color": "Black",
+      "description": "Protect your home with this comprehensive wireless security system."
+    },
+    {
+      "id": 45,
+      "name": "Bluetooth FM Transmitter",
+      "price": 29.99,
+      "color": "Silver",
+      "description": "Stream music from your phone to your car stereo with this Bluetooth FM transmitter."
+    },
+    {
+      "id": 46,
+      "name": "Smart Picture Frame",
+      "price": 99.99,
+      "color": "Black",
+      "description": "Display your favorite photos with this smart picture frame that can be controlled remotely."
+    },
+    {
+      "id": 47,
+      "name": "Wireless Desk Lamp",
+      "price": 49.99,
+      "color": "White",
+      "description": "Illuminate your workspace with this adjustable and wireless desk lamp."
+    },
+    {
+      "id": 48,
+      "name": "Smart Pet Feeder",
+      "price": 129.99,
+      "color": "Silver",
+      "description": "Feed your pet on a schedule and control portions with this smart pet feeder."
+    },
+    {
+      "id": 49,
+      "name": "Wireless Bluetooth Speaker",
+      "price": 39.99,
+      "color": "Red",
+      "description": "Listen to your favorite music wirelessly with this portable Bluetooth speaker."
+    },
+    {
+      "id": 50,
+      "name": "Smart Light Switch",
+      "price": 29.99,
+      "color": "White",
+      "description": "Control your lights with your voice or smartphone using this smart light switch."
+    },
+    {
+      "id": 51,
+      "name": "Wireless Bluetooth Earbuds",
+      "price": 69.99,
+      "color": "Black",
+      "description": "Enjoy high-quality sound and wireless freedom with these Bluetooth earbuds."
+    },
+    {
+      "id": 52,
+      "name": "Smart Air Purifier",
+      "price": 199.99,
+      "color": "Silver",
+      "description": "Keep the air in your home clean and fresh with this smart air purifier."
+    },
+    {
+      "id": 53,
+      "name": "Wireless Barcode Scanner",
+      "price": 99.99,
+      "color": "Black",
+      "description": "Efficiently scan barcodes wirelessly with this portable barcode scanner."
+    },
+    {
+      "id": 54,
+      "name": "Smart Water Leak Detector",
+      "price": 49.99,
+      "color": "White",
+      "description": "Detect and prevent water leaks in your home with this smart water leak detector."
+    },
+    {
+      "id": 55,
+      "name": "Wireless Bluetooth Mouse",
+      "price": 29.99,
+      "color": "Black",
+      "description": "Navigate your computer wirelessly with this ergonomic Bluetooth mouse."
+    },
+    {
+      "id": 56,
+      "name": "Smart Wine Cooler",
+      "price": 299.99,
+      "color": "Silver",
+      "description": "Keep your wine at the perfect temperature with this smart wine cooler."
+    },
+    {
+      "id": 57,
+      "name": "Bluetooth Car Speakerphone",
+      "price": 49.99,
+      "color": "Black",
+      "description": "Make hands-free calls in your car with this Bluetooth car speakerphone."
+    },
+    {
+      "id": 58,
+      "name": "Smart Desk",
+      "price": 399.99,
+      "color": "White",
+      "description": "Create a productive workspace with this smart desk that adjusts to your preferences."
+    },
+    {
+      "id": 59,
+      "name": "Wireless Bluetooth Gamepad",
+      "price": 59.99,
+      "color": "Black",
+      "description": "Take your gaming to the next level with this wireless Bluetooth gamepad."
+    },
+    {
+      "id": 60,
+      "name": "Smart Air Conditioner",
+      "price": 349.99,
+      "color": "Silver",
+      "description": "Control the temperature in your home with this smart air conditioner that can be controlled remotely."
+    },
+    {
+      "id": 61,
+      "name": "Wireless Charging Stand",
+      "price": 39.99,
+      "color": "Black",
+      "description": "Charge your phone wirelessly and conveniently with this wireless charging stand."
+    },
+    {
+      "id": 62,
+      "name": "Smart Security Door Lock",
+      "price": 199.99,
+      "color": "Silver",
+      "description": "Secure your home with this keyless smart door lock that offers advanced security features."
+    },
+    {
+      "id": 63,
+      "name": "Wireless Bluetooth Keyboard and Mouse Combo",
+      "price": 79.99,
+      "color": "White",
+      "description": "Enhance your productivity with this wireless Bluetooth keyboard and mouse combo."
+    },
+    {
+      "id": 64,
+      "name": "Smart Ceiling Fan",
+      "price": 149.99,
+      "color": "Silver",
+      "description": "Control the speed and lighting of your ceiling fan with this smart ceiling fan."
+    },
+    {
+      "id": 65,
+      "name": "Wireless Gaming Keyboard",
+      "price": 99.99,
+      "color": "Black",
+      "description": "Experience responsive gaming performance with this wireless gaming keyboard."
+    },
+    {
+      "id": 66,
+      "name": "Smart Door Lock",
+      "price": 149.99,
+      "color": "White",
+      "description": "Secure your home with this keyless smart door lock that offers convenience and peace of mind."
+    },
+    {
+      "id": 67,
+      "name": "Wireless Bluetooth Car Charger",
+      "price": 29.99,
+      "color": "Black",
+      "description": "Charge your phone and enjoy hands-free calling in your car with this wireless Bluetooth car charger."
+    },
+    {
+      "id": 68,
+      "name": "Smart Plant Monitor",
+      "price": 39.99,
+      "color": "Green",
+      "description": "Monitor the health of your plants and receive care reminders with this smart plant monitor."
+    },
+    {
+      "id": 69,
+      "name": "Wireless Gaming Mouse",
+      "price": 59.99,
+      "color": "Black",
+      "description": "Experience precise and responsive gaming performance with this wireless gaming mouse."
+    },
+    {
+      "id": 70,
+      "name": "Smart Thermostat",
+      "price": 129.99,
+      "color": "Silver",
+      "description": "Control the temperature in your home and save energy with this smart thermostat."
+    },
+    {
+      "id": 71,
+      "name": "Wireless Bluetooth Shower Head",
+      "price": 79.99,
+      "color": "Chrome",
+      "description": "Listen to your favorite music while showering with this wireless Bluetooth shower head."
+    },
+    {
+      "id": 72,
+      "name": "Smart Garage Door Opener",
+      "price": 199.99,
+      "color": "Black",
+      "description": "Open and close your garage door remotely with this smart garage door opener."
+    },
+    {
+      "id": 73,
+      "name": "Wireless Bluetooth Sports Earphones",
+      "price": 49.99,
+      "color": "Black",
+      "description": "Enjoy music during your workouts with these wireless Bluetooth sports earphones."
+    },
+    {
+      "id": 74,
+      "name": "Smart Robot Vacuum Cleaner",
+      "price": 299.99,
+      "color": "Silver",
+      "description": "Clean your floors automatically with this smart robot vacuum cleaner that can be controlled remotely."
+    },
+    {
+      "id": 75,
+      "name": "Wireless Bluetooth Karaoke Microphone",
+      "price": 39.99,
+      "color": "Rose Gold",
+      "description": "Sing along to your favorite songs with this wireless Bluetooth karaoke microphone."
+    },
+    {
+      "id": 76,
+      "name": "Smart Watering System",
+      "price": 89.99,
+      "color": "White",
+      "description": "Efficiently water your garden with this smart watering system that can be controlled remotely."
+    },
+    {
+      "id": 77,
+      "name": "Wireless Charging Mouse Pad",
+      "price": 29.99,
+      "color": "Black",
+      "description": "Charge your phone wirelessly while using your computer with this wireless charging mouse pad."
+    },
+    {
+      "id": 78,
+      "name": "Smart Fitness Tracker",
+      "price": 99.99,
+      "color": "Black",
+      "description": "Track your fitness activities and monitor your health with this smart fitness tracker."
+    },
+    {
+      "id": 79,
+      "name": "Wireless Bluetooth Bike Speaker",
+      "price": 49.99,
+      "color": "Red",
+      "description": "Listen to music while cycling with this wireless Bluetooth bike speaker."
+    },
+    {
+      "id": 80,
+      "name": "Smart Video Doorbell",
+      "price": 149.99,
+      "color": "Silver",
+      "description": "See who's at your door from anywhere with this smart video doorbell that sends alerts to your phone."
+    },
+    {
+      "id": 81,
+      "name": "Wireless Bluetooth Headband",
+      "price": 29.99,
+      "color": "Black",
+      "description": "Listen to music or make calls while keeping your ears warm with this wireless Bluetooth headband."
+    },
+    {
+      "id": 82,
+      "name": "Smart Oven",
+      "price": 399.99,
+      "color": "Silver",
+      "description": "Cook meals with precision and convenience using this smart oven that can be controlled remotely."
+    },
+    {
+      "id": 83,
+      "name": "Wireless Bluetooth Car FM Transmitter",
+      "price": 39.99,
+      "color": "Black",
+      "description": "Stream music from your phone to your car stereo with this wireless Bluetooth car FM transmitter."
+    },
+    {
+      "id": 84,
+      "name": "Smart Body Scale",
+      "price": 59.99,
+      "color": "White",
+      "description": "Track your weight and other body metrics with this smart body scale that syncs with your phone."
+    },
+    {
+      "id": 85,
+      "name": "Wireless Bluetooth In-Ear Headphones",
+      "price": 79.99,
+      "color": "Black",
+      "description": "Enjoy immersive audio and wireless convenience with these Bluetooth in-ear headphones."
+    },
+    {
+      "id": 86,
+      "name": "Smart Window Blinds",
+      "price": 199.99,
+      "color": "White",
+      "description": "Control the natural light in your home with these smart window blinds that can be operated remotely."
+    },
+    {
+      "id": 87,
+      "name": "Wireless Charging Car Mount",
+      "price": 49.99,
+      "color": "Black",
+      "description": "Mount your phone in your car and charge it wirelessly with this wireless charging car mount."
+    },
+    {
+      "id": 88,
+      "name": "Smart Bathroom Scale",
+      "price": 69.99,
+      "color": "Silver",
+      "description": "Track your weight, BMI, and other body metrics with this smart bathroom scale that syncs with your phone."
+    },
+    {
+      "id": 89,
+      "name": "Wireless Bluetooth Neckband Earphones",
+      "price": 59.99,
+      "color": "Black",
+      "description": "Enjoy wireless audio and a comfortable fit with these Bluetooth neckband earphones."
+    },
+    {
+      "id": 90,
+      "name": "Smart Window Air Conditioner",
+      "price": 349.99,
+      "color": "White",
+      "description": "Control the temperature in your room with this smart window air conditioner that can be controlled remotely."
+    },
+    {
+      "id": 91,
+      "name": "Wireless Bluetooth FM Transmitter",
+      "price": 29.99,
+      "color": "Black",
+      "description": "Stream music from your phone to your car stereo with this wireless Bluetooth FM transmitter."
+    },
+    {
+      "id": 92,
+      "name": "Smart Humidifier",
+      "price": 79.99,
+      "color": "White",
+      "description": "Maintain the ideal humidity level in your home with this smart humidifier that can be controlled remotely."
+    },
+    {
+      "id": 93,
+      "name": "Wireless Bluetooth Sport Headphones",
+      "price": 49.99,
+      "color": "Black",
+      "description": "Stay motivated during workouts with these wireless Bluetooth sport headphones."
+    },
+    {
+      "id": 94,
+      "name": "Smart Coffee Table",
+      "price": 299.99,
+      "color": "White",
+      "description": "Add style and functionality to your living room with this smart coffee table that features built-in speakers and charging ports."
+    },
+    {
+      "id": 95,
+      "name": "Wireless Bluetooth Earhook Headphones",
+      "price": 39.99,
+      "color": "Black",
+      "description": "Enjoy secure and wireless audio during workouts with these Bluetooth earhook headphones."
+    },
+    {
+      "id": 96,
+      "name": "Smart Mirror",
+      "price": 249.99,
+      "color": "Silver",
+      "description": "Get ready for the day with this smart mirror that displays weather updates, news, and more."
+    },
+    {
+      "id": 97,
+      "name": "Wireless Bluetooth Noise-Canceling Headphones",
+      "price": 149.99,
+      "color": "Black",
+      "description": "Immerse yourself in music without distractions with these wireless Bluetooth noise-canceling headphones."
+    },
+    {
+      "id": 98,
+      "name": "Smart Wine Opener",
+      "price": 49.99,
+      "color": "Black",
+      "description": "Effortlessly open wine bottles with this smart wine opener."
+    },
+    {
+      "id": 99,
+      "name": "Wireless Bluetooth Sport Earbuds",
+      "price": 69.99,
+      "color": "Black",
+      "description": "Enjoy wireless audio and a secure fit during workouts with these Bluetooth sport earbuds."
+    },
+    {
+      "id": 100,
+      "name": "Smart Indoor Camera",
+      "price": 129.99,
+      "color": "White",
+      "description": "Monitor your home remotely with this smart indoor camera that offers live streaming and motion detection."
+    }
+  ]
+  
