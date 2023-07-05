@@ -3,12 +3,16 @@ import { Response } from 'express';
 import { UserService } from './user.service';
 import { ErrorResponse } from '../responses/error.response';
 import { SuccessfulResponse } from '../responses/successful.response';
+import { ApiResponse, ApiTags } from '@nestjs/swagger';
+import { GetRandomUserResponseType } from './responseTypes/getRandomUser.response.type';
 
+@ApiTags('user')
 @Controller('user')
 export class UserController {
     constructor(private readonly userService: UserService) {}
 
     @Get('/random')
+    @ApiResponse({ status: 200, description: 'OK', type: GetRandomUserResponseType })
     async getRandomUser(@Res() response: Response): Promise<void> {
         try {
             const user = await this.userService.getRandomUser();
