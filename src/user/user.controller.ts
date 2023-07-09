@@ -19,7 +19,7 @@ export class UserController {
             new SuccessfulResponse(response, user, 'OK');
         } catch (error) {
             new ErrorResponse(response, error, 'Error');
-            Logger.log('getRandomUser', error);
+            Logger.error('getRandomUser', error);
         }
     }
 }
