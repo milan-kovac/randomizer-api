@@ -3,9 +3,10 @@ import { UserService } from './user.service';
 import { UserController } from './user.controller';
 import { DataReaderModule } from '../dataReader/dataReader.module';
 import { DataReaderService } from '../dataReader/dataReader.service';
+import { CustomCacheModule } from 'src/cache/cache.module';
 
 @Module({
-    imports: [DataReaderModule],
+    imports: [DataReaderModule, CustomCacheModule],
     controllers: [UserController],
     providers: [UserService, DataReaderService]
 })
