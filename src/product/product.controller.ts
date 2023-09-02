@@ -5,9 +5,11 @@ import { Response } from 'express';
 import { SuccessfulResponse } from '../responses/successful.response';
 import { ErrorResponse } from '../responses/error.response';
 import { GetRandomProductResponse } from './responseTypes/getRandomProduct.response';
-import { GetAllProductsDto } from '../user/dtos/getAllProducts.dto.';
+import { GetAllProductsDto } from './dtos/getAllProducts.dto.';
+import { GetAllProductsResponse } from './responseTypes/getAllProducts.response';
+import { ControllerName } from 'src/swagger/swagger.types';
 
-@ApiTags('product')
+@ApiTags(ControllerName.PRODUCT)
 @Controller('product')
 export class ProductController {
     constructor(private readonly productService: ProductService) {}
@@ -25,7 +27,7 @@ export class ProductController {
     }
 
     @Get('/all')
-    @ApiResponse({ status: 200, description: 'OK', type: GetRandomProductResponse })
+    @ApiResponse({ status: 200, description: 'OK', type: GetAllProductsResponse })
     async getAllProducts(
         @Res() response: Response,
         @Query(
