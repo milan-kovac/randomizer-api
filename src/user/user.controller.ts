@@ -5,8 +5,9 @@ import { ErrorResponse } from '../responses/error.response';
 import { SuccessfulResponse } from '../responses/successful.response';
 import { ApiResponse, ApiTags } from '@nestjs/swagger';
 import { GetRandomUserResponseType } from './responseTypes/getRandomUser.response.type';
+import { ControllerName } from 'src/swagger/swagger.types';
 
-@ApiTags('user')
+@ApiTags(ControllerName.USER)
 @Controller('user')
 export class UserController {
     constructor(private readonly userService: UserService) {}

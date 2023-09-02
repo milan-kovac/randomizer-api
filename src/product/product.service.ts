@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { DataReaderService } from '../dataReader/dataReader.service';
 import { Product } from './product';
-import { GetAllProductsDto } from '../user/dtos/getAllProducts.dto.';
+import { GetAllProductsDto } from './dtos/getAllProducts.dto.';
 
 @Injectable()
 export class ProductService {
