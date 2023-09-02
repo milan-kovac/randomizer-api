@@ -1,11 +1,11 @@
 import { Gender } from './enums/gender.enum';
 
 export class User {
-    private id: string;
-    private firstName: string;
-    private lastName: string;
-    private gender: Gender;
-    private age: number;
+    id: string;
+    firstName: string;
+    lastName: string;
+    gender: Gender;
+    age: number;
 
     constructor(id: string, firstName: string, lastName: string, gender: Gender, age: number) {
         this.id = id;
