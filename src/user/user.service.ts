@@ -1,4 +1,4 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable, NotFoundException } from '@nestjs/common';
 import { User } from './user';
 import { DataReaderService } from '../dataReader/dataReader.service';
 import { faker } from '@faker-js/faker';
@@ -23,6 +23,16 @@ export class UserService {
     async createUser(createUserRequest: CreateUserDto): Promise<User> {
         const user = new User(uuidv4(), createUserRequest.firstName, createUserRequest.lastName, createUserRequest.gender, createUserRequest.age);
         await this.cacheService.set(`user-${user.id}`, user);
+        console.log('KEY', `user-${user.id}`);
+        console.log(await this.cacheService.get(`user-${user.id}`));
+        return user;
+    }
+
+    async getUser(userId: string): Promise<User> {
+        const user = await this.cacheService.get(`user-${userId}`);
+        if (!user) {
+            throw new NotFoundException('User not found.');
+        }
         return user;
     }
 
