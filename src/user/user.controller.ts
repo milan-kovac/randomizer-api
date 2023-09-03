@@ -5,9 +5,9 @@ import { ErrorResponse } from '../responses/error.response';
 import { SuccessfulResponse } from '../responses/successful.response';
 import { ApiResponse, ApiTags } from '@nestjs/swagger';
 import { GetUserResponseType } from './responseTypes/getUser.response.type';
-import { ControllerName } from 'src/swagger/swagger.types';
+import { ControllerName } from '../swagger/swagger.types';
 import { CreateUserDto } from './dtos/createUser.dto';
-import { UuidValidationPipe } from 'src/common/pipes/uuidValidation.pipe';
+import { UuidValidationPipe } from '../common/pipes/uuidValidation.pipe';
 
 @ApiTags(ControllerName.USER)
 @Controller('user')

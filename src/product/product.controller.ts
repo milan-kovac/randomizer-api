@@ -7,7 +7,7 @@ import { ErrorResponse } from '../responses/error.response';
 import { GetRandomProductResponse } from './responseTypes/getRandomProduct.response';
 import { GetAllProductsDto } from './dtos/getAllProducts.dto.';
 import { GetAllProductsResponse } from './responseTypes/getAllProducts.response';
-import { ControllerName } from 'src/swagger/swagger.types';
+import { ControllerName } from '../swagger/swagger.types';
 
 @ApiTags(ControllerName.PRODUCT)
 @Controller('product')

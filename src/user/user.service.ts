@@ -5,7 +5,7 @@ import { faker } from '@faker-js/faker';
 import { Gender } from './enums/gender.enum';
 import { v4 as uuidv4 } from 'uuid';
 import { CreateUserDto } from './dtos/createUser.dto';
-import { CacheService } from 'src/cache/cache.service';
+import { CacheService } from '../cache/cache.service';
 
 @Injectable()
 export class UserService {
