@@ -1,7 +1,7 @@
 import { ApiProperty } from '@nestjs/swagger';
 import { Gender } from '../enums/gender.enum';
 
-export class GetRandomUserResponseType {
+export class GetUserResponseType {
     @ApiProperty({ description: 'User ID', type: String })
     id: string;
 
