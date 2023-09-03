@@ -1,4 +1,4 @@
-import { Controller, Get, Post, Logger, Res, Body, Param, UsePipes } from '@nestjs/common';
+import { Controller, Get, Post, Logger, Res, Body, Param, UsePipes, Delete } from '@nestjs/common';
 import { Response } from 'express';
 import { UserService } from './user.service';
 import { ErrorResponse } from '../responses/error.response';
@@ -45,6 +45,19 @@ export class UserController {
         try {
             const user = await this.userService.createUser(createUserRequest);
             new SuccessfulResponse(response, user, 'OK');
+        } catch (error) {
+            new ErrorResponse(response, error, 'Error');
+            Logger.error('getRandomUser', error);
+        }
+    }
+
+    @Delete('/:userId')
+    @ApiResponse({ status: 200, description: 'OK', type: GetUserResponseType })
+    @UsePipes(UuidValidationPipe)
+    async deleteUser(@Res() response: Response, @Param('userId') userId: string): Promise<void> {
+        try {
+            await this.userService.deleteUser(userId);
+            new SuccessfulResponse(response, true, 'OK');
         } catch (error) {
             new ErrorResponse(response, error, 'Error');
             Logger.error('getRandomUser', error);
